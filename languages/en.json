@@ -1,0 +1,97 @@
+{
+  "noToken": "No token found. Please set the DISCORD_TOKEN environment variable in a .env file.",
+  "noPerms": "You do not have permissions for this command.",
+  "welcome": "Welcome %user% to the Official Veryx Network discord server!",
+  "commands": {
+    "verify": {
+      "embed": {
+        "title": "✅ Verification System",
+        "description": "Hello! Welcome to the official Veryx Network server. \n\nTo get access to all channels, click the green button to verify yourself.",
+        "roleNotFound": "Verification role not found. We are sorry for the inconvenience",
+        "roleNotFoundLog": "Verification role not found. Check the role id in the config file.",
+        "sent": "Verification message sent!",
+        "buttonText": "Click me!"
+      },
+      "invalidRole": "The role entered is not valid.",
+      "verifySuccess": "You have been successfully verified! Welcome to the server!",
+      "redButtonText": "You need click on the green button to verify yourself!"
+    },
+    "message": {
+      "waitingForMessage": "I am waiting for your message in the specified channel...",
+      "timeout": "Timeout expired. No message was received in the time limit.",
+      "messageSent": "The message has been successfully sent to the channel!"
+    },
+    "ticket": {
+      "embedTitle": "\uD83C\uDFAB Veryx Network Ticket System",
+      "embedDescription": "Click the button below to open a ticket.",
+      "embedFooter": "Veryx Ticket System",
+      "ticketExists": "You already have a ticket open!",
+      "createdTicket": "Your ticket has been created! Go to channel %channel% to view it.",
+      "closeButton": "Close",
+      "closingTicket": "Closing the ticket..",
+      "ticketClosed": "Ticket closed by %user%",
+      "dropdownPlaceholder": "\uD83D\uDD3C Select a category",
+      "notATicketChannel": "The owner of the ticket was not found! Close it manually",
+      "setup": "Correctly configured ticket system",
+      "userTicket": {
+        "embedTitle": "\uD83C\uDFAB %type% Ticket",
+        "supportEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for reaching out to our **Support Team**. :sparkles: We’ll get back to you as soon as possible to assist you with your issue.",
+        "accountEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for contacting us regarding your **Account**. :sparkles: A member of our team will reach out to help you with your account-related queries.",
+        "mediaEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for wanting to be part of the Media Team. :sparkles: We’re really excited that you’re interested in joining us! Soon, a member of our staff will get in touch with you to provide all the information you need and guide you through the process.",
+        "banEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for reaching out regarding a **Ban**. :sparkles: Our team will review your case and contact you shortly with more details about the situation.",
+        "rewardsEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for your interest in **Rewards**. :sparkles: We’ll review your request and provide you with all the information regarding rewards soon.",
+        "fTopReportEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for submitting your **FTop Report**. :sparkles: We’ll carefully review the information and get back to you shortly with the results.",
+        "staffReportEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for submitting your **Staff Report**. :sparkles: We take all reports seriously, and a staff member will be in touch with you to follow up on your report.",
+        "userReportEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for submitting your **User Report**. :sparkles: Our team will carefully investigate and follow up with you soon.",
+        "bugReportEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for submitting a **Bug Report**. :sparkles: We’ll review your report and contact you shortly with the necessary steps to resolve the issue.",
+        "buyCraftEmbedDescription": ":wave: Hello **%user%**! :wave:\n\nThank you for your interest in **BuyCraft**. :sparkles: We’ll assist you with the purchase process and provide all the details you need shortly.",
+        "embedFooter": "Veryx Ticket"
+      },
+      "options": {
+        "supportLabel": "Support General",
+        "supportDescription": "Consult your doubts and questions in general",
+        "accountLabel": "Problems with your account",
+        "accountDescription": "Inquiries about the status of your account",
+        "mediaLabel": "Apply as a partner",
+        "mediaDescription": "If you want to be a partner of the server",
+        "banLabel": "Appeal sanction",
+        "banDescription": "If you believe you were unfairly punished",
+        "rewardsLabel": "Claim rewards",
+        "rewardsDescription": "Claim server rewards",
+        "fTopReportLabel": "Report a FTop",
+        "fTopReportDescription": "Report to a top faction",
+        "staffReportLabel": "Report a staff",
+        "staffReportDescription": "Report a staff member",
+        "userReportLabel": "Report a user",
+        "userReportDescription": "Report a user from the server",
+        "bugReportLabel": "Report a bug",
+        "bugReportDescription": "Report a server or discord bug",
+        "buyCraftLabel": "BuyCraft support",
+        "buyCraftDescription": "Store related support.",
+        "report": "Report Ticket",
+        "other": "Other ticket"
+      }
+    },
+    "giveaway": {
+      "invalidDuration": "Invalid duration format. Use formats like 1d, 2h, or 30m.",
+      "alreadyEnded": "⚠️ %user%, this giveaway has already ended.",
+      "noWinnerMessage": "**🚫 Giveaway ended with no participants.**",
+      "winnersMessages": "🎉 Congratulations to the winners: %winners%!",
+      "embedEndsField": "Ends",
+      "embedHostedField": "Hosted by",
+      "embedParticipantsField": "Participants",
+      "embedWinnersField": "Winners",
+      "ended": "**🎉 Giveaway ended!**",
+      "emoji": "🎉",
+      "noWinnerEmoji": "❌"
+    }
+  },
+  "embeds": {
+    "server": {
+      "title": "\uD83D\uDD25 Veryx Network",
+      "description": "There are currently `%players%` people playing. What are you waiting for to enter? The IP is: `%domain%`",
+      "descriptionDataFailed": "Veryx Network's IP is: `%domain%`. What are you waiting for to enter?",
+      "footer": "Bot developed by Vyrex Network"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+discord.py>=2.4.0
+ezjsonpy==1.0.5
+loguru>=0.7.3
+python-dotenv>=1.0.1
+requests>=2.32.3
+PySocks>=1.7.1
+dnspython>=2.6.1
+pytz>=2025.1
+grapheme>=0.6.0
+emoji>=2.14.1
+pillow>=11.1.0
+rstatus
